@@ -3,87 +3,87 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>\u0418\u043f\u043e\u0442\u0435\u043a\u0430 \u2014 \u0416\u041a \u00ab\u0410\u043d\u0433\u0430\u0440\u0430 \u041f\u0430\u0440\u043a\u00bb</title>
+<title>Ипотека — ЖК «Ангара Парк»</title>
 <link rel="stylesheet" href="style.css">
 <script src="app.js" defer></script>
 </head>
 <body>
 <header class="hdr" id="hdr"><div class="wrap nav">
-  <a href="index.html" class="logo">\u0410\u041d\u0413\u0410\u0420\u0410<span> \u041f\u0410\u0420\u041a</span></a>
+  <a href="index.html" class="logo">АНГАРА<span> ПАРК</span></a>
   <nav class="nav-links">
-    <a href="index.html">\u0413\u043b\u0430\u0432\u043d\u0430\u044f</a>
-    <a href="planirovki.html">\u041f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0438</a>
-    <a href="ipoteka.html" class="active">\u0418\u043f\u043e\u0442\u0435\u043a\u0430</a>
-    <a href="progress.html">\u0425\u043e\u0434 \u0441\u0442\u0440\u043e\u0439\u043a\u0438</a>
-    <a href="kontakty.html">\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b</a>
+    <a href="index.html">Главная</a>
+    <a href="planirovki.html">Планировки</a>
+    <a href="ipoteka.html" class="active">Ипотека</a>
+    <a href="progress.html">Ход стройки</a>
+    <a href="kontakty.html">Контакты</a>
   </nav>
   <div class="nav-right">
     <a href="tel:+73952505050" class="nav-phone">+7 (3952) 50-50-50</a>
-    <a href="kontakty.html" class="btn">\u041e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0437\u0430\u044f\u0432\u043a\u0443</a>
-    <button class="burger" id="burger" aria-label="\u041c\u0435\u043d\u044e"><span></span><span></span><span></span></button>
+    <a href="kontakty.html" class="btn">Оставить заявку</a>
+    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
   </div>
 </div></header>
 <div class="overlay" id="overlay"></div>
 <nav class="mobile-menu" id="mobileMenu">
   <button class="m-close" id="mClose">&times;</button>
-  <a href="index.html">\u0413\u043b\u0430\u0432\u043d\u0430\u044f</a>
-  <a href="planirovki.html">\u041f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0438</a>
-  <a href="ipoteka.html">\u0418\u043f\u043e\u0442\u0435\u043a\u0430</a>
-  <a href="progress.html">\u0425\u043e\u0434 \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430</a>
-  <a href="kontakty.html">\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b</a>
-  <a href="kontakty.html" class="btn">\u041e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0437\u0430\u044f\u0432\u043a\u0443</a>
+  <a href="index.html">Главная</a>
+  <a href="planirovki.html">Планировки</a>
+  <a href="ipoteka.html">Ипотека</a>
+  <a href="progress.html">Ход строительства</a>
+  <a href="kontakty.html">Контакты</a>
+  <a href="kontakty.html" class="btn">Оставить заявку</a>
 </nav>
 
 <section class="page-hero"><div class="wrap">
-  <div class="crumbs"><a href="index.html">\u0413\u043b\u0430\u0432\u043d\u0430\u044f</a> / \u0418\u043f\u043e\u0442\u0435\u043a\u0430</div>
-  <h1>\u0418\u043f\u043e\u0442\u0435\u0447\u043d\u044b\u0439 \u043a\u0430\u043b\u044c\u043a\u0443\u043b\u044f\u0442\u043e\u0440</h1>
-  <p>\u041f\u043e\u0434\u0431\u0435\u0440\u0438\u0442\u0435 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u044b\u0439 \u043f\u043b\u0430\u0442\u0451\u0436 \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0443 \u0438\u043f\u043e\u0442\u0435\u043a\u0438.</p>
+  <div class="crumbs"><a href="index.html">Главная</a> / Ипотека</div>
+  <h1>Ипотечный калькулятор</h1>
+  <p>Подберите комфортный платёж и программу ипотеки.</p>
 </div></section>
 
 <section class="sec"><div class="wrap">
   <div class="mort reveal">
     <div>
-      <div class="mctrl"><label>\u0421\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c \u043a\u0432\u0430\u0440\u0442\u0438\u0440\u044b <b id="mPriceV">6 200 000 \u20bd</b></label><input type="range" id="mPrice" min="3000000" max="20000000" step="100000" value="6200000"></div>
-      <div class="mctrl"><label>\u041f\u0435\u0440\u0432\u043e\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0437\u043d\u043e\u0441 <b id="mDpV">20%</b></label><input type="range" id="mDp" min="10" max="90" step="5" value="20"></div>
-      <div class="mctrl"><label>\u0421\u0440\u043e\u043a \u043a\u0440\u0435\u0434\u0438\u0442\u0430 <b id="mTermV">20 \u043b\u0435\u0442</b></label><input type="range" id="mTerm" min="1" max="30" step="1" value="20"></div>
-      <div class="mctrl"><label>\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430</label><div class="mpreset"><button data-rate="6" class="on" type="button">\u0421\u0435\u043c\u0435\u0439\u043d\u0430\u044f 6%</button><button data-rate="5" type="button">IT-\u0438\u043f\u043e\u0442\u0435\u043a\u0430 5%</button><button data-rate="18" type="button">\u0411\u0430\u0437\u043e\u0432\u0430\u044f 18%</button></div></div>
+      <div class="mctrl"><label>Стоимость квартиры <b id="mPriceV">6 200 000 ₽</b></label><input type="range" id="mPrice" min="3000000" max="20000000" step="100000" value="6200000"></div>
+      <div class="mctrl"><label>Первоначальный взнос <b id="mDpV">20%</b></label><input type="range" id="mDp" min="10" max="90" step="5" value="20"></div>
+      <div class="mctrl"><label>Срок кредита <b id="mTermV">20 лет</b></label><input type="range" id="mTerm" min="1" max="30" step="1" value="20"></div>
+      <div class="mctrl"><label>Программа</label><div class="mpreset"><button data-rate="6" class="on" type="button">Семейная 6%</button><button data-rate="5" type="button">IT-ипотека 5%</button><button data-rate="18" type="button">Базовая 18%</button></div></div>
     </div>
     <div class="mres">
-      <div class="cap">\u0415\u0436\u0435\u043c\u0435\u0441\u044f\u0447\u043d\u044b\u0439 \u043f\u043b\u0430\u0442\u0451\u0436</div>
-      <div class="pay" id="mPay">\u2014</div>
-      <div class="row"><span>\u0421\u0443\u043c\u043c\u0430 \u043a\u0440\u0435\u0434\u0438\u0442\u0430</span><b id="mLoan">\u2014</b></div>
-      <div class="row"><span>\u041f\u0435\u0440\u0432\u043e\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0437\u043d\u043e\u0441</span><b id="mDpSum">\u2014</b></div>
-      <div class="row"><span>\u0421\u0442\u0430\u0432\u043a\u0430</span><b id="mRate">\u2014</b></div>
+      <div class="cap">Ежемесячный платёж</div>
+      <div class="pay" id="mPay">—</div>
+      <div class="row"><span>Сумма кредита</span><b id="mLoan">—</b></div>
+      <div class="row"><span>Первоначальный взнос</span><b id="mDpSum">—</b></div>
+      <div class="row"><span>Ставка</span><b id="mRate">—</b></div>
     </div>
   </div>
-  <p style="color:var(--muted);font-size:13px;margin-top:16px">* \u0420\u0430\u0441\u0447\u0451\u0442 \u043f\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0438 \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u043e\u0439 \u043e\u0444\u0435\u0440\u0442\u043e\u0439.</p>
+  <p style="color:var(--muted);font-size:13px;margin-top:16px">* Расчёт предварительный и не является публичной офертой.</p>
 </div></section>
 
 <section class="sec soft"><div class="wrap">
-  <div class="sec-head reveal"><span class="sec-tag">\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b</span><h2>\u0421 \u043a\u0430\u043a\u043e\u0439 \u0441\u0442\u0430\u0432\u043a\u043e\u0439 \u043c\u043e\u0436\u043d\u043e \u043a\u0443\u043f\u0438\u0442\u044c</h2></div>
+  <div class="sec-head reveal"><span class="sec-tag">Программы</span><h2>С какой ставкой можно купить</h2></div>
   <div class="programs">
-    <div class="prog-card2 reveal"><div class="rate">6%</div><h3>\u0421\u0435\u043c\u0435\u0439\u043d\u0430\u044f \u0438\u043f\u043e\u0442\u0435\u043a\u0430</h3><p>\u0414\u043b\u044f \u0441\u0435\u043c\u0435\u0439 \u0441 \u0434\u0435\u0442\u044c\u043c\u0438. \u041f\u0435\u0440\u0432\u043e\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0437\u043d\u043e\u0441 \u043e\u0442 20%.</p></div>
-    <div class="prog-card2 reveal"><div class="rate">5%</div><h3>IT-\u0438\u043f\u043e\u0442\u0435\u043a\u0430</h3><p>\u0414\u043b\u044f \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432 \u0430\u043a\u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432\u0430\u043d\u043d\u044b\u0445 IT-\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0439.</p></div>
-    <div class="prog-card2 reveal"><div class="rate">18%</div><h3>\u0411\u0430\u0437\u043e\u0432\u0430\u044f</h3><p>\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u044b\u0435 \u0443\u0441\u043b\u043e\u0432\u0438\u044f \u0431\u0435\u0437 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u0439 \u043f\u043e \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f\u043c.</p></div>
+    <div class="prog-card2 reveal"><div class="rate">6%</div><h3>Семейная ипотека</h3><p>Для семей с детьми. Первоначальный взнос от 20%.</p></div>
+    <div class="prog-card2 reveal"><div class="rate">5%</div><h3>IT-ипотека</h3><p>Для сотрудников аккредитованных IT-компаний.</p></div>
+    <div class="prog-card2 reveal"><div class="rate">18%</div><h3>Базовая</h3><p>Стандартные условия без ограничений по категориям.</p></div>
   </div>
 </div></section>
 
 <section class="sec"><div class="wrap">
-  <div class="sec-head reveal"><span class="sec-tag">\u0412\u043e\u043f\u0440\u043e\u0441\u044b</span><h2>\u0427\u0430\u0441\u0442\u044b\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b</h2></div>
+  <div class="sec-head reveal"><span class="sec-tag">Вопросы</span><h2>Частые вопросы</h2></div>
   <div class="faq reveal">
-    <details><summary>\u041a\u0430\u043a\u043e\u0439 \u043d\u0443\u0436\u0435\u043d \u043f\u0435\u0440\u0432\u043e\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0437\u043d\u043e\u0441?</summary><p>\u041e\u0442 10% \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u043a\u0432\u0430\u0440\u0442\u0438\u0440\u044b. \u041f\u043e \u043b\u044c\u0433\u043e\u0442\u043d\u044b\u043c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430\u043c \u2014 \u043e\u0442 20%.</p></details>
-    <details><summary>\u041c\u043e\u0436\u043d\u043e \u043b\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u043c\u0430\u0442\u0435\u0440\u0438\u043d\u0441\u043a\u0438\u0439 \u043a\u0430\u043f\u0438\u0442\u0430\u043b?</summary><p>\u0414\u0430, \u043c\u0430\u0442\u043a\u0430\u043f\u0438\u0442\u0430\u043b \u043c\u043e\u0436\u043d\u043e \u043d\u0430\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u043d\u0430 \u043f\u0435\u0440\u0432\u043e\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0437\u043d\u043e\u0441 \u0438\u043b\u0438 \u043f\u043e\u0433\u0430\u0448\u0435\u043d\u0438\u0435 \u043a\u0440\u0435\u0434\u0438\u0442\u0430.</p></details>
-    <details><summary>\u041d\u0430 \u043a\u0430\u043a\u043e\u0439 \u0441\u0440\u043e\u043a \u0434\u0430\u044e\u0442 \u0438\u043f\u043e\u0442\u0435\u043a\u0443?</summary><p>\u0414\u043e 30 \u043b\u0435\u0442. \u0427\u0435\u043c \u0431\u043e\u043b\u044c\u0448\u0435 \u0441\u0440\u043e\u043a, \u0442\u0435\u043c \u043d\u0438\u0436\u0435 \u0435\u0436\u0435\u043c\u0435\u0441\u044f\u0447\u043d\u044b\u0439 \u043f\u043b\u0430\u0442\u0451\u0436.</p></details>
+    <details><summary>Какой нужен первоначальный взнос?</summary><p>От 10% стоимости квартиры. По льготным программам — от 20%.</p></details>
+    <details><summary>Можно ли использовать материнский капитал?</summary><p>Да, маткапитал можно направить на первоначальный взнос или погашение кредита.</p></details>
+    <details><summary>На какой срок дают ипотеку?</summary><p>До 30 лет. Чем больше срок, тем ниже ежемесячный платёж.</p></details>
   </div>
 </div></section>
 
 <footer class="ftr"><div class="wrap">
   <div class="ftr-grid">
-    <div><a href="index.html" class="logo">\u0410\u041d\u0413\u0410\u0420\u0410<span> \u041f\u0410\u0420\u041a</span></a><p>\u0416\u0438\u043b\u043e\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441 \u0431\u0438\u0437\u043d\u0435\u0441-\u043a\u043b\u0430\u0441\u0441\u0430 \u0432 \u0418\u0440\u043a\u0443\u0442\u0441\u043a\u0435.</p></div>
-    <div><h4>\u0420\u0430\u0437\u0434\u0435\u043b\u044b</h4><ul><li><a href="planirovki.html">\u041f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0438</a></li><li><a href="ipoteka.html">\u0418\u043f\u043e\u0442\u0435\u043a\u0430</a></li><li><a href="progress.html">\u0425\u043e\u0434 \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430</a></li><li><a href="kontakty.html">\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b</a></li></ul></div>
-    <div><h4>\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b</h4><ul><li><a href="tel:+73952505050">+7 (3952) 50-50-50</a></li><li>\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u043e 9:00 \u2013 20:00</li><li>Telegram \u00b7 WhatsApp</li></ul></div>
+    <div><a href="index.html" class="logo">АНГАРА<span> ПАРК</span></a><p>Жилой комплекс бизнес-класса в Иркутске.</p></div>
+    <div><h4>Разделы</h4><ul><li><a href="planirovki.html">Планировки</a></li><li><a href="ipoteka.html">Ипотека</a></li><li><a href="progress.html">Ход строительства</a></li><li><a href="kontakty.html">Контакты</a></li></ul></div>
+    <div><h4>Контакты</h4><ul><li><a href="tel:+73952505050">+7 (3952) 50-50-50</a></li><li>Ежедневно 9:00 – 20:00</li><li>Telegram · WhatsApp</li></ul></div>
   </div>
-  <div class="ftr-bot"><span>\u00a9 2026 \u0416\u041a \u00ab\u0410\u043d\u0433\u0430\u0440\u0430 \u041f\u0430\u0440\u043a\u00bb. \u0414\u0435\u043c\u043e-\u043f\u0440\u043e\u0435\u043a\u0442.</span><span>\u0421\u0434\u0435\u043b\u0430\u043d\u043e \u043a\u0430\u043a \u043a\u0435\u0439\u0441 \u0432\u0435\u0431-\u0441\u0442\u0443\u0434\u0438\u0438</span></div>
+  <div class="ftr-bot"><span>© 2026 ЖК «Ангара Парк». Демо-проект.</span><span>Сделано как кейс веб-студии</span></div>
 </div></footer>
 </body>
 </html>
